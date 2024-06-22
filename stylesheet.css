@@ -1,0 +1,72 @@
+html {
+    background-color: lightgrey;
+}
+
+#title-block {
+  display: flex;
+  background-image: url(https://www.civitatis.com/blog/wp-content/uploads/2023/07/shutterstock_557625622-1920x1289.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+h1 {
+  font-family: cursive;
+  color: red;
+  text-shadow: 5px 5px 5px grey;
+  font-size: clamp(16px, 15vw, 300px);
+  text-align: center;
+  margin: 0 auto;
+}
+
+#intro-container {
+  display: flex;
+  height: 25vh;
+  align-items: center;
+}
+
+#intro-text {
+  text-align: left;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: clamp(5px, 1.75vw, 25px);
+  line-height: 40px;
+}
+
+#fun-flag-seperator {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    height: 20vw; 
+}
+
+#message-section {
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#prompt {
+    font-size: xx-large;
+    font-family: verdana;
+    color: red;
+}
+
+#generate-phrase {
+    background-color: yellow;
+    color: red;
+    font-family: verdana;
+    width: 15vw;
+    height: 5vh;
+}
+
+#phrase-output {
+    font-size: x-large;
+    font-family: sans-serif;
+}
