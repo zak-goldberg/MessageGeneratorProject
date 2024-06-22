@@ -24,6 +24,21 @@ function returnRandomMessage(packagedArrays) {
 }
 
 // Print 3 random concantenated strings to the console
+/*
 for (let i = 0; i < 3; i++) {
     console.log(returnRandomMessage(messageObj));
 }
+*/
+
+// Store message and button elements in a variable
+const messageBlock = document.getElementById('phrase-output');
+const phraseButton = document.getElementById('generate-phrase');
+
+// Function for event listener
+// Change this into an anonymous function?
+function changeElementText(){
+    messageBlock.innerHTML = returnRandomMessage(messageObj);
+}
+
+// Create event listener on button
+phraseButton.addEventListener("click", changeElementText);
