@@ -46,6 +46,7 @@
 ```
 ## To-Do
 - ~~Troubleshoot JS~~
+  - Needed to add `defer` keyword to the script tag in the HTML file so the script ran after the DOM element have all loaded. 
 - Improve mobile rendering it render better on mobile
 - Add signature
 ## Appendix
