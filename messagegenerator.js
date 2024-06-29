@@ -35,10 +35,14 @@ const messageBlock = document.getElementById('phrase-output');
 const phraseButton = document.getElementById('generate-phrase');
 
 // Function for event listener
-// Change this into an anonymous function?
+// TO-DO: change this into an anonymous function
+/*
 function changeElementText(){
     messageBlock.innerHTML = returnRandomMessage(messageObj);
 }
+*/    
 
 // Create event listener on button
-phraseButton.addEventListener("click", changeElementText);
+phraseButton.addEventListener("click", () => {
+  messageBlock.innerHTML = returnRandomMessage(messageObj);
+});

@@ -1,6 +1,6 @@
 # Spanish Message Generator Project
 ## Goals
-- Create a program that prints a random Spanish phrase to help the user learn new Spanish phrases.
+- Create a program that prints a random Spanish phrase to help the user learn Spanish.
 - Practice building out HTML, CSS, and JavaScript from scratch.
 - Practice using git to track changes.
 ## Requirements
@@ -45,10 +45,8 @@
 }
 ```
 ## To-Do
-- ~~Troubleshoot JS~~
-  - Needed to add `defer` keyword to the script tag in the HTML file so the script ran after the DOM element have all loaded. 
-- Improve mobile rendering it render better on mobile
-- Add signature
+- Improve mobile rendering
+
 ## Appendix
 ### List of Common Spanish Phrases
 **Ref:** https://www.mondly.com/spanish-phrases-expressions
