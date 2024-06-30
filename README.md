@@ -12,9 +12,7 @@
 ```
 2. Store the 3 arrays in an object to keep them organized.
 3. Create a function that randomly fetches one string from each array, concatenates them, and returns the concatenated string.
-4. Run the function and:
-  1. Print the results to the console. Once it works:
-  1. Updated the .innerHTML attribute for an element in a page's DOM
+4. Run the function and update the .innerHTML attribute for an element in a page's DOM
 ## UI Mocks
 [Figma link](https://www.figma.com/design/P6bIFmXko8NybCQwi1SN2Y/Spanish-Phrase-Generator-Project?node-id=0-1&t=tEPkTx3h5o1Ytzvf-1)
 ## Open Questions
